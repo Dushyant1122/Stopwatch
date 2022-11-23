@@ -1,0 +1,37 @@
+main{
+    font-family: Digital-7;
+    background: linear-gradient(red,pink);
+}
+
+.container{
+    width: 1280px;
+    margin: auto;
+    cursor: pointer;
+}
+
+#timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 81vh;
+    flex-direction: column;
+}
+#timer h1{
+    user-select: none;
+    color: bisque;
+    font-size: 8vw;
+}
+
+.btn{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background: rgba(135, 207, 235, 0.452);
+    border: none;
+}
+
+@media(max-width:1280px){
+.container{
+    width: 95%
+}
+}
